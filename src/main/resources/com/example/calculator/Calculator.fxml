@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane onMouseClicked="#clearfield" prefHeight="383.0" prefWidth="471.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.CalculatorController">
+   <children>
+      <TextField fx:id="ResultField" alignment="CENTER_RIGHT" layoutX="13.0" layoutY="19.0" prefHeight="78.0" prefWidth="443.0" promptText="0">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </TextField>
+      <Button layoutX="14.0" layoutY="108.0" mnemonicParsing="false" onMouseClicked="#fieldhv0" prefHeight="50.0" prefWidth="90.0" text="0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="118.0" layoutY="108.0" mnemonicParsing="false" onMouseClicked="#fieldhv1" prefHeight="50.0" prefWidth="90.0" text="1">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="220.0" layoutY="108.0" mnemonicParsing="false" onMouseClicked="#fieldhv2" prefHeight="50.0" prefWidth="90.0" text="2">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#fieldhv3" prefHeight="50.0" prefWidth="90.0" text="3">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="118.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#fieldhv4" prefHeight="50.0" prefWidth="90.0" text="4">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="220.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#fieldhv5" prefHeight="50.0" prefWidth="90.0" text="5">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#fieldhv6" prefHeight="50.0" prefWidth="90.0" text="6">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="118.0" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#fieldhv7" prefHeight="50.0" prefWidth="90.0" text="7">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="220.0" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#fieldhv8" prefHeight="50.0" prefWidth="90.0" text="8">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#fieldhv9" prefHeight="50.0" prefWidth="90.0" text="9">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="EqualstoButton" layoutX="118.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#showResultonField" prefHeight="50.0" prefWidth="90.0" text="=">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="337.0" layoutY="108.0" mnemonicParsing="false" onMouseClicked="#plusfunc" prefHeight="50.0" prefWidth="113.0" text="+">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="337.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#minusfunc" prefHeight="50.0" prefWidth="113.0" text="-">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="337.0" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#mulfunc" prefHeight="50.0" prefWidth="113.0" text="x">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="337.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#divfunc" prefHeight="50.0" prefWidth="113.0" text="/">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Text fx:id="Result" layoutX="14.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=" wrappingWidth="274.8033332824707">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Text fx:id="ResultPrompt" layoutX="39.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " wrappingWidth="196.13669204711914">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button layoutX="220.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#clearfield" prefHeight="50.0" prefWidth="90.0" text="Clear" textFill="#ff0000fa">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
